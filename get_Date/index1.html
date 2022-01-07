@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body onload="zaman()">
+<h1 id="text-h1"></h1>
+<script>
+function zaman()
+{
+let Day;
+switch(new Date().getDay())
+{
+case 0:
+Day ="1Shanbe";
+break;
+case 1:
+Day ="2Shanbe ";
+break;
+case 2:
+Day ="3shanbe";
+break;
+case 3:
+Day ="4Shanbe";
+break;
+case 4:
+Day ="5Shanbe ";
+break;
+case 5:
+Day ="Jome";
+break;
+case 6:
+Day ="Shanbe";
+
+}
+document.getElementById("text-h1").innerHTML ="emroz  : "+Day;
+}
+</script>
+<style>
+  #text-h1
+  {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    
+  
+  }
+</style>
+</body>
+</html>
